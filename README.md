@@ -80,3 +80,10 @@ bot.start
 $ nohup bundle exec rails r script/lognyan.rb -e production > /dev/null 2>&1 &
 $ nohup bundle exec rails s -p 3002 -e production > /dev/null 2>&1 &
 ```
+
+Or
+
+```bash
+$ nohup bundle exec foreman > /dev/null 2>&1 &
+```
+

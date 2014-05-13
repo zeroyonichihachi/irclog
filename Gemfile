@@ -12,6 +12,7 @@ gem 'pry'
 gem 'pry-rails'
 gem 'pry-nav'
 gem 'cinch'
+gem 'foreman'
 
 group :development, :test, :cucumber do
   gem 'rspec-rails'
